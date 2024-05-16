@@ -16,7 +16,7 @@ namespace DoorRestartSystem
         public override string Name => "DoorRestartSystem";
         public override string Prefix => "DRS";
         public override Version Version => new Version(4, 1, 0);
-        public override Version RequiredExiledVersion => new Version(7, 0, 0);
+        public override Version RequiredExiledVersion => new Version(8, 8, 1);
         private Server _server;
         public override PluginPriority Priority => PluginPriority.Medium;
 
